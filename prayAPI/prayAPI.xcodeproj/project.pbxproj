@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAB0B98028C3DA33002AE91F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0B97F28C3DA33002AE91F /* AppDelegate.swift */; };
+		BAB0B98228C3DA33002AE91F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0B98128C3DA33002AE91F /* SceneDelegate.swift */; };
+		BAB0B98428C3DA33002AE91F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0B98328C3DA33002AE91F /* ViewController.swift */; };
+		BAB0B98728C3DA33002AE91F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB0B98528C3DA33002AE91F /* Main.storyboard */; };
+		BAB0B98A28C3DA33002AE91F /* prayAPI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAB0B98828C3DA33002AE91F /* prayAPI.xcdatamodeld */; };
+		BAB0B98C28C3DA34002AE91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB0B98B28C3DA34002AE91F /* Assets.xcassets */; };
+		BAB0B98F28C3DA34002AE91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB0B98D28C3DA34002AE91F /* LaunchScreen.storyboard */; };
+		BAB0B99828C3E0B3002AE91F /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0B99628C3E0B3002AE91F /* customCell.swift */; };
+		BAB0B99928C3E0B3002AE91F /* customCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB0B99728C3E0B3002AE91F /* customCell.xib */; };
+		BAB0B99B28C3E3D0002AE91F /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0B99A28C3E3D0002AE91F /* model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAB0B97C28C3DA33002AE91F /* prayAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prayAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB0B97F28C3DA33002AE91F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAB0B98128C3DA33002AE91F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BAB0B98328C3DA33002AE91F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAB0B98628C3DA33002AE91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAB0B98928C3DA33002AE91F /* prayAPI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = prayAPI.xcdatamodel; sourceTree = "<group>"; };
+		BAB0B98B28C3DA34002AE91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB0B98E28C3DA34002AE91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAB0B99028C3DA34002AE91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB0B99628C3E0B3002AE91F /* customCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
+		BAB0B99728C3E0B3002AE91F /* customCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = customCell.xib; sourceTree = "<group>"; };
+		BAB0B99A28C3E3D0002AE91F /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB0B97928C3DA33002AE91F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAB0B97328C3DA33002AE91F = {
+			isa = PBXGroup;
+			children = (
+				BAB0B97E28C3DA33002AE91F /* prayAPI */,
+				BAB0B97D28C3DA33002AE91F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB0B97D28C3DA33002AE91F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB0B97C28C3DA33002AE91F /* prayAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB0B97E28C3DA33002AE91F /* prayAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BAB0B99A28C3E3D0002AE91F /* model.swift */,
+				BAB0B99628C3E0B3002AE91F /* customCell.swift */,
+				BAB0B99728C3E0B3002AE91F /* customCell.xib */,
+				BAB0B97F28C3DA33002AE91F /* AppDelegate.swift */,
+				BAB0B98128C3DA33002AE91F /* SceneDelegate.swift */,
+				BAB0B98328C3DA33002AE91F /* ViewController.swift */,
+				BAB0B98528C3DA33002AE91F /* Main.storyboard */,
+				BAB0B98B28C3DA34002AE91F /* Assets.xcassets */,
+				BAB0B98D28C3DA34002AE91F /* LaunchScreen.storyboard */,
+				BAB0B99028C3DA34002AE91F /* Info.plist */,
+				BAB0B98828C3DA33002AE91F /* prayAPI.xcdatamodeld */,
+			);
+			path = prayAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB0B97B28C3DA33002AE91F /* prayAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB0B99328C3DA34002AE91F /* Build configuration list for PBXNativeTarget "prayAPI" */;
+			buildPhases = (
+				BAB0B97828C3DA33002AE91F /* Sources */,
+				BAB0B97928C3DA33002AE91F /* Frameworks */,
+				BAB0B97A28C3DA33002AE91F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prayAPI;
+			productName = prayAPI;
+			productReference = BAB0B97C28C3DA33002AE91F /* prayAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB0B97428C3DA33002AE91F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BAB0B97B28C3DA33002AE91F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BAB0B97728C3DA33002AE91F /* Build configuration list for PBXProject "prayAPI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB0B97328C3DA33002AE91F;
+			productRefGroup = BAB0B97D28C3DA33002AE91F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB0B97B28C3DA33002AE91F /* prayAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB0B97A28C3DA33002AE91F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB0B98F28C3DA34002AE91F /* LaunchScreen.storyboard in Resources */,
+				BAB0B98C28C3DA34002AE91F /* Assets.xcassets in Resources */,
+				BAB0B99928C3E0B3002AE91F /* customCell.xib in Resources */,
+				BAB0B98728C3DA33002AE91F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB0B97828C3DA33002AE91F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB0B98428C3DA33002AE91F /* ViewController.swift in Sources */,
+				BAB0B99B28C3E3D0002AE91F /* model.swift in Sources */,
+				BAB0B98028C3DA33002AE91F /* AppDelegate.swift in Sources */,
+				BAB0B99828C3E0B3002AE91F /* customCell.swift in Sources */,
+				BAB0B98A28C3DA33002AE91F /* prayAPI.xcdatamodeld in Sources */,
+				BAB0B98228C3DA33002AE91F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAB0B98528C3DA33002AE91F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB0B98628C3DA33002AE91F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAB0B98D28C3DA34002AE91F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB0B98E28C3DA34002AE91F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAB0B99128C3DA34002AE91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAB0B99228C3DA34002AE91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAB0B99428C3DA34002AE91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8TQ3KB27Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = prayAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.prayAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAB0B99528C3DA34002AE91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8TQ3KB27Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = prayAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.prayAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB0B97728C3DA33002AE91F /* Build configuration list for PBXProject "prayAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB0B99128C3DA34002AE91F /* Debug */,
+				BAB0B99228C3DA34002AE91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB0B99328C3DA34002AE91F /* Build configuration list for PBXNativeTarget "prayAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB0B99428C3DA34002AE91F /* Debug */,
+				BAB0B99528C3DA34002AE91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAB0B98828C3DA33002AE91F /* prayAPI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAB0B98928C3DA33002AE91F /* prayAPI.xcdatamodel */,
+			);
+			currentVersion = BAB0B98928C3DA33002AE91F /* prayAPI.xcdatamodel */;
+			path = prayAPI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAB0B97428C3DA33002AE91F /* Project object */;
+}
