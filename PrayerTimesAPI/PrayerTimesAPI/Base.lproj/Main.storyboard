@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PrayerTimesAPI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Round Dusk at the Mosque" translatesAutoresizingMaskIntoConstraints="NO" id="X2A-N2-qa6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" alpha="0.90000000000000002" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xGv-KK-QmM">
+                                <rect key="frame" x="0.0" y="266" width="414" height="306"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="SaH-cR-r3u"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="bvI-ac-3PM"/>
+                                </connections>
+                            </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Py2-WK-cJe">
+                                <rect key="frame" x="20" y="225" width="374" height="29"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kev-eC-192">
+                                        <rect key="frame" x="0.0" y="0.0" width="183" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التاريخ" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sAJ-Nh-Z7v">
+                                        <rect key="frame" x="191" y="0.0" width="183" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GHc-JC-elX">
+                                <rect key="frame" x="20" y="193" width="374" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffM-yj-EeD">
+                                        <rect key="frame" x="0.0" y="0.0" width="183" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اليوم" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwF-BW-Vqv">
+                                        <rect key="frame" x="191" y="0.0" width="183" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTK-fk-X6y">
+                                <rect key="frame" x="20" y="101" width="374" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <menu key="menu" id="6XH-W9-8Gm">
+                                    <children>
+                                        <command title="Item 1" id="YZ3-Z0-XU6"/>
+                                        <command title="Item 2" id="Ac5-EG-esh"/>
+                                    </children>
+                                </menu>
+                                <state key="normal" title="Button" image="arrowtriangle.down.circle" catalog="system">
+                                    <color key="titleColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="X2A-N2-qa6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0IV-gz-PLO"/>
+                            <constraint firstAttribute="bottom" secondItem="X2A-N2-qa6" secondAttribute="bottom" id="0yN-47-GCb"/>
+                            <constraint firstItem="gTK-fk-X6y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="28b-8w-fxw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xGv-KK-QmM" secondAttribute="bottom" constant="290" id="4Nq-JY-it8"/>
+                            <constraint firstAttribute="bottom" secondItem="X2A-N2-qa6" secondAttribute="bottom" id="8UA-Wp-7Qi"/>
+                            <constraint firstItem="X2A-N2-qa6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Aud-lP-Tns"/>
+                            <constraint firstItem="xGv-KK-QmM" firstAttribute="top" secondItem="Py2-WK-cJe" secondAttribute="bottom" constant="12" id="HKN-tl-hJu"/>
+                            <constraint firstItem="X2A-N2-qa6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Jr3-mv-aQl"/>
+                            <constraint firstItem="xGv-KK-QmM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MBb-rS-bRc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Py2-WK-cJe" secondAttribute="trailing" constant="20" id="N32-xE-NJd"/>
+                            <constraint firstItem="X2A-N2-qa6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="O4N-L5-IVW"/>
+                            <constraint firstItem="Py2-WK-cJe" firstAttribute="top" secondItem="GHc-JC-elX" secondAttribute="bottom" constant="8" id="OiE-Gi-DAZ"/>
+                            <constraint firstItem="gTK-fk-X6y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="P2r-as-DxI"/>
+                            <constraint firstItem="X2A-N2-qa6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="P3K-RJ-DO4"/>
+                            <constraint firstItem="xGv-KK-QmM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PZu-CK-jrC"/>
+                            <constraint firstItem="GHc-JC-elX" firstAttribute="top" secondItem="gTK-fk-X6y" secondAttribute="bottom" constant="51" id="Pit-ke-6OH"/>
+                            <constraint firstItem="Py2-WK-cJe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="181" id="X2H-Z7-QNL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GHc-JC-elX" secondAttribute="trailing" constant="20" id="dFF-bg-4HP"/>
+                            <constraint firstItem="X2A-N2-qa6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fD2-SJ-Baj"/>
+                            <constraint firstItem="xGv-KK-QmM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="222" id="hKQ-fO-G9J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gTK-fk-X6y" secondAttribute="trailing" constant="20" id="he6-z1-kpl"/>
+                            <constraint firstItem="GHc-JC-elX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="149" id="mYr-54-76j"/>
+                            <constraint firstItem="Py2-WK-cJe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qZ9-KL-4H7"/>
+                            <constraint firstItem="GHc-JC-elX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sVN-wg-9nh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="choiseTimezoneButton" destination="gTK-fk-X6y" id="nfY-Ef-fct"/>
+                        <outlet property="dateGregorianLabel" destination="kev-eC-192" id="qVa-9p-Z5f"/>
+                        <outlet property="dateHijriLabel" destination="sAJ-Nh-Z7v" id="m4R-O2-pls"/>
+                        <outlet property="dayArabicLabel" destination="dwF-BW-Vqv" id="9zv-xW-OFN"/>
+                        <outlet property="dayEnglishLabel" destination="ffM-yj-EeD" id="foM-1t-zfG"/>
+                        <outlet property="tableView" destination="xGv-KK-QmM" id="yBM-Do-Rx4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Round Dusk at the Mosque" width="1920" height="3603"/>
+        <image name="arrowtriangle.down.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
