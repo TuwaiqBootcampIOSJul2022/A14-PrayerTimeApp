@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89085ABE28C1E33E00692A66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89085ABD28C1E33E00692A66 /* AppDelegate.swift */; };
+		89085AC028C1E33E00692A66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89085ABF28C1E33E00692A66 /* SceneDelegate.swift */; };
+		89085AC228C1E33E00692A66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89085AC128C1E33E00692A66 /* ViewController.swift */; };
+		89085AC528C1E33E00692A66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89085AC328C1E33E00692A66 /* Main.storyboard */; };
+		89085AC728C1E34000692A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89085AC628C1E34000692A66 /* Assets.xcassets */; };
+		89085ACA28C1E34000692A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89085AC828C1E34000692A66 /* LaunchScreen.storyboard */; };
+		89085B2128C220A100692A66 /* ArbFONTS-GE-MB-MB-Bold_E.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AD328C220A000692A66 /* ArbFONTS-GE-MB-MB-Bold_E.otf */; };
+		89085B2228C220A100692A66 /* ArbFONTS-GE-MB-MB-Medium-Italic_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AD428C220A000692A66 /* ArbFONTS-GE-MB-MB-Medium-Italic_10.otf */; };
+		89085B2328C220A100692A66 /* ArbFONTS-GE_Box_Bold_4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AD528C220A000692A66 /* ArbFONTS-GE_Box_Bold_4.otf */; };
+		89085B2428C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Medium_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AD628C220A000692A66 /* ArbFONTS-GE-MB-Farasha-Medium_10.otf */; };
+		89085B2528C220A100692A66 /* ArbFONTS-GE-Heritage-Two-Medium_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AD728C220A000692A66 /* ArbFONTS-GE-Heritage-Two-Medium_A.otf */; };
+		89085B2628C220A100692A66 /* ArbFONTS-GE-MB-Fares-Medium_23.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AD828C220A000692A66 /* ArbFONTS-GE-MB-Fares-Medium_23.otf */; };
+		89085B2728C220A100692A66 /* ArbFONTS-GE-Dinar-Two-Medium-Italic_20.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AD928C220A000692A66 /* ArbFONTS-GE-Dinar-Two-Medium-Italic_20.otf */; };
+		89085B2828C220A100692A66 /* ArbFONTS-GE-Dinar-Two-Medium_1E.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085ADA28C220A000692A66 /* ArbFONTS-GE-Dinar-Two-Medium_1E.otf */; };
+		89085B2928C220A100692A66 /* ArbFONTS-GE-MB-Najm-Light_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085ADB28C220A000692A66 /* ArbFONTS-GE-MB-Najm-Light_10.otf */; };
+		89085B2A28C220A100692A66 /* ArbFONTS-GE-MB-Najm-Medium-Italic_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085ADC28C220A000692A66 /* ArbFONTS-GE-MB-Najm-Medium-Italic_10.otf */; };
+		89085B2B28C220A100692A66 /* ArbFONTS-GE-Modern-Light_23.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085ADD28C220A000692A66 /* ArbFONTS-GE-Modern-Light_23.otf */; };
+		89085B2C28C220A100692A66 /* ArbFONTS-GE-Thameen-Book-Italic_12.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085ADE28C220A000692A66 /* ArbFONTS-GE-Thameen-Book-Italic_12.otf */; };
+		89085B2D28C220A100692A66 /* ArbFONTS-GE-Heritage-One-UltraLight_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085ADF28C220A000692A66 /* ArbFONTS-GE-Heritage-One-UltraLight_A.otf */; };
+		89085B2E28C220A100692A66 /* ArbFONTS-GE_SS_TWO_MEDIUM_5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AE028C220A000692A66 /* ArbFONTS-GE_SS_TWO_MEDIUM_5.otf */; };
+		89085B2F28C220A100692A66 /* ArbFONTS-GE-Minaret-Medium_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AE128C220A000692A66 /* ArbFONTS-GE-Minaret-Medium_10.otf */; };
+		89085B3028C220A100692A66 /* ArbFONTS-ge-dinarone-bold_8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AE228C220A000692A66 /* ArbFONTS-ge-dinarone-bold_8.ttf */; };
+		89085B3128C220A100692A66 /* ArbFONTS-GE-Jarida-Heavy-Italic_14.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AE328C220A000692A66 /* ArbFONTS-GE-Jarida-Heavy-Italic_14.otf */; };
+		89085B3228C220A100692A66 /* ArbFONTS-GE-Modern-Medium_23.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AE428C220A000692A66 /* ArbFONTS-GE-Modern-Medium_23.otf */; };
+		89085B3328C220A100692A66 /* ArbFONTS-GE_Smooth_Light_2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AE528C220A000692A66 /* ArbFONTS-GE_Smooth_Light_2.otf */; };
+		89085B3428C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Medium-Italic_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AE628C220A000692A66 /* ArbFONTS-GE-MB-Farasha-Medium-Italic_10.otf */; };
+		89085B3528C220A100692A66 /* ArbFONTS-GE-Thameen-Light-Italic_12.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AE728C220A000692A66 /* ArbFONTS-GE-Thameen-Light-Italic_12.otf */; };
+		89085B3628C220A100692A66 /* ArbFONTS-GE-SS-Text-Light-Italic_24.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AE828C220A000692A66 /* ArbFONTS-GE-SS-Text-Light-Italic_24.otf */; };
+		89085B3728C220A100692A66 /* ArbFONTS-GE_SS_Unique_Bold_5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AE928C220A000692A66 /* ArbFONTS-GE_SS_Unique_Bold_5.otf */; };
+		89085B3828C220A100692A66 /* ArbFONTS-GE-MB-MB-condensedLight_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AEA28C220A000692A66 /* ArbFONTS-GE-MB-MB-condensedLight_10.otf */; };
+		89085B3928C220A100692A66 /* ArbFONTS-GE-Hili-Light_15.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AEB28C220A000692A66 /* ArbFONTS-GE-Hili-Light_15.otf */; };
+		89085B3A28C220A100692A66 /* ArbFONTS-GE-Heritage-One-Bold_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AEC28C220A000692A66 /* ArbFONTS-GE-Heritage-One-Bold_A.otf */; };
+		89085B3B28C220A100692A66 /* ArbFONTS-GE-Heritage-Two-Bold_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AED28C220A000692A66 /* ArbFONTS-GE-Heritage-Two-Bold_A.otf */; };
+		89085B3C28C220A100692A66 /* ArbFONTS-GE-Snd-Book_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AEE28C220A000692A66 /* ArbFONTS-GE-Snd-Book_1.ttf */; };
+		89085B3D28C220A100692A66 /* ArbFONTS-GE-SS-TV-Light_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AEF28C220A000692A66 /* ArbFONTS-GE-SS-TV-Light_10.otf */; };
+		89085B3E28C220A100692A66 /* ArbFONTS-GE-SS-Two-Light_28.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AF028C220A000692A66 /* ArbFONTS-GE-SS-Two-Light_28.otf */; };
+		89085B3F28C220A100692A66 /* ArbFONTS-GE_WIDE_EXTRABOLD_3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AF128C220A000692A66 /* ArbFONTS-GE_WIDE_EXTRABOLD_3.otf */; };
+		89085B4028C220A100692A66 /* ArbFONTS-GE-New-Bold_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AF228C220A000692A66 /* ArbFONTS-GE-New-Bold_A.otf */; };
+		89085B4128C220A100692A66 /* ArbFONTS-GE-MB-Najm-Bold_23.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AF328C220A000692A66 /* ArbFONTS-GE-MB-Najm-Bold_23.otf */; };
+		89085B4228C220A100692A66 /* ArbFONTS-GE-SS-TV-Medium_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AF428C220A000692A66 /* ArbFONTS-GE-SS-TV-Medium_10.otf */; };
+		89085B4328C220A100692A66 /* ArbFONTS-GE-Lady-Medium_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AF528C220A000692A66 /* ArbFONTS-GE-Lady-Medium_A.otf */; };
+		89085B4428C220A100692A66 /* ArbFONTS-GE-Aridi-NaskhBold_8.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AF628C220A000692A66 /* ArbFONTS-GE-Aridi-NaskhBold_8.otf */; };
+		89085B4528C220A100692A66 /* ArbFONTS-GE-Narrow-Light_1F.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AF728C220A000692A66 /* ArbFONTS-GE-Narrow-Light_1F.otf */; };
+		89085B4628C220A100692A66 /* ArbFONTS-GE_SS_Two_Bold_4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AF828C220A000692A66 /* ArbFONTS-GE_SS_Two_Bold_4.otf */; };
+		89085B4728C220A100692A66 /* ArbFONTS-ge-ss-tv-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AF928C220A000692A66 /* ArbFONTS-ge-ss-tv-bold.otf */; };
+		89085B4828C220A100692A66 /* ArbFONTS-GE_CAP_MEDIUM_7.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AFA28C220A000692A66 /* ArbFONTS-GE_CAP_MEDIUM_7.otf */; };
+		89085B4928C220A100692A66 /* ArbFONTS-GE_Hili_Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AFB28C220A000692A66 /* ArbFONTS-GE_Hili_Book.otf */; };
+		89085B4A28C220A100692A66 /* ArbFONTS-GE_SS_Unique_Light_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AFC28C220A000692A66 /* ArbFONTS-GE_SS_Unique_Light_1.otf */; };
+		89085B4B28C220A100692A66 /* ArbFONTS-GE_TASMEEM_MEDIUM.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AFD28C220A000692A66 /* ArbFONTS-GE_TASMEEM_MEDIUM.otf */; };
+		89085B4C28C220A100692A66 /* ArbFONTS-GE-MB-Fares-Medium-Italic_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AFE28C220A000692A66 /* ArbFONTS-GE-MB-Fares-Medium-Italic_10.otf */; };
+		89085B4D28C220A100692A66 /* ArbFONTS-GE-Heritage-Two-Light-Itali_8.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085AFF28C220A000692A66 /* ArbFONTS-GE-Heritage-Two-Light-Itali_8.otf */; };
+		89085B4E28C220A100692A66 /* ArbFONTS-GE-MB-Fares-Light_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0028C220A000692A66 /* ArbFONTS-GE-MB-Fares-Light_10.otf */; };
+		89085B4F28C220A100692A66 /* ArbFONTS-GE-Curves-Medium_2B.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0128C220A000692A66 /* ArbFONTS-GE-Curves-Medium_2B.otf */; };
+		89085B5028C220A100692A66 /* ArbFONTS-GE-Heritage-One-Light_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0228C220A100692A66 /* ArbFONTS-GE-Heritage-One-Light_A.otf */; };
+		89085B5128C220A100692A66 /* ArbFONTS-GE_Contrast_Bold_2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0328C220A100692A66 /* ArbFONTS-GE_Contrast_Bold_2.otf */; };
+		89085B5228C220A100692A66 /* ArbFONTS-GE-Heritage-One-Medium_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0428C220A100692A66 /* ArbFONTS-GE-Heritage-One-Medium_A.otf */; };
+		89085B5328C220A100692A66 /* ArbFONTS-GE-Elegant-Bold_1F.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0528C220A100692A66 /* ArbFONTS-GE-Elegant-Bold_1F.otf */; };
+		89085B5428C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Light_23.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0628C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Light_23.otf */; };
+		89085B5528C220A100692A66 /* ArbFONTS-GE-MB-MB-Medium_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0728C220A100692A66 /* ArbFONTS-GE-MB-MB-Medium_10.otf */; };
+		89085B5628C220A100692A66 /* ArbFONTS-GE-Thuluth-Light_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0828C220A100692A66 /* ArbFONTS-GE-Thuluth-Light_10.otf */; };
+		89085B5728C220A100692A66 /* ArbFONTS-GE-Dinar-Two-Light-Italic_20.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0928C220A100692A66 /* ArbFONTS-GE-Dinar-Two-Light-Italic_20.otf */; };
+		89085B5828C220A100692A66 /* ArbFONTS-GE-Serif-Medium_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0A28C220A100692A66 /* ArbFONTS-GE-Serif-Medium_A.otf */; };
+		89085B5928C220A100692A66 /* ArbFONTS-GE-MB-Najm-Medium_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0B28C220A100692A66 /* ArbFONTS-GE-MB-Najm-Medium_10.otf */; };
+		89085B5A28C220A100692A66 /* ArbFONTS-GE-SS-Text-Medium_26.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0C28C220A100692A66 /* ArbFONTS-GE-SS-Text-Medium_26.otf */; };
+		89085B5B28C220A100692A66 /* ArbFONTS-GE-Tail-Medium_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0D28C220A100692A66 /* ArbFONTS-GE-Tail-Medium_A.otf */; };
+		89085B5C28C220A100692A66 /* ArbFONTS-GE-Flow-Regular-Italic_1A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0E28C220A100692A66 /* ArbFONTS-GE-Flow-Regular-Italic_1A.otf */; };
+		89085B5D28C220A100692A66 /* ArbFONTS-GE-Thameen-DemiBold-Italic_12.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B0F28C220A100692A66 /* ArbFONTS-GE-Thameen-DemiBold-Italic_12.otf */; };
+		89085B5E28C220A100692A66 /* ArbFONTS-GE-AridiKoufiItalic_8.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1028C220A100692A66 /* ArbFONTS-GE-AridiKoufiItalic_8.otf */; };
+		89085B5F28C220A100692A66 /* ArbFONTS-GE-Meem-Medium_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1128C220A100692A66 /* ArbFONTS-GE-Meem-Medium_A.otf */; };
+		89085B6028C220A100692A66 /* ArbFONTS-GE-Qantarat-ExtraBold_A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1228C220A100692A66 /* ArbFONTS-GE-Qantarat-ExtraBold_A.otf */; };
+		89085B6128C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Bold_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1328C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Bold_10.otf */; };
+		89085B6228C220A100692A66 /* ArbFONTS-GESSTextUltraLight-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1428C220A100692A66 /* ArbFONTS-GESSTextUltraLight-UltraLight.otf */; };
+		89085B6328C220A100692A66 /* ArbFONTS-GE-SS-Text-Bold_26.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1528C220A100692A66 /* ArbFONTS-GE-SS-Text-Bold_26.otf */; };
+		89085B6428C220A100692A66 /* ArbFONTS-GE-Aridi-NaskhBlack_8.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1628C220A100692A66 /* ArbFONTS-GE-Aridi-NaskhBlack_8.otf */; };
+		89085B6528C220A100692A66 /* ArbFONTS-GE-Elegant-Italic_D.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1728C220A100692A66 /* ArbFONTS-GE-Elegant-Italic_D.otf */; };
+		89085B6628C220A100692A66 /* ArbFONTS-GE_Dinar_One_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1828C220A100692A66 /* ArbFONTS-GE_Dinar_One_Medium.otf */; };
+		89085B6728C220A100692A66 /* ArbFONTS-GE-Elegant-Medium_24.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1928C220A100692A66 /* ArbFONTS-GE-Elegant-Medium_24.otf */; };
+		89085B6828C220A100692A66 /* ArbFONTS-GE-Flow-Bold-Italic_1A.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1A28C220A100692A66 /* ArbFONTS-GE-Flow-Bold-Italic_1A.otf */; };
+		89085B6928C220A100692A66 /* ArbFONTS-GE_SS_TEXT_LIGHT.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1B28C220A100692A66 /* ArbFONTS-GE_SS_TEXT_LIGHT.otf */; };
+		89085B6A28C220A100692A66 /* ArbFONTS-GE-Jarida-Heavy_23.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1C28C220A100692A66 /* ArbFONTS-GE-Jarida-Heavy_23.otf */; };
+		89085B6B28C220A100692A66 /* ArbFONTS-GE-East-ExtraBold-Italic_14.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1D28C220A100692A66 /* ArbFONTS-GE-East-ExtraBold-Italic_14.otf */; };
+		89085B6C28C220A100692A66 /* ArbFONTS-GE-SS-Three-Light_19.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1E28C220A100692A66 /* ArbFONTS-GE-SS-Three-Light_19.otf */; };
+		89085B6D28C220A100692A66 /* ArbFONTS-GE-MB-Fares-Bold_10.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B1F28C220A100692A66 /* ArbFONTS-GE-MB-Fares-Bold_10.otf */; };
+		89085B6E28C220A100692A66 /* ArbFONTS-GE-Modern-Bold_23.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89085B2028C220A100692A66 /* ArbFONTS-GE-Modern-Bold_23.otf */; };
+		89085B7228C3694400692A66 /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89085B7028C3694400692A66 /* TimeCell.swift */; };
+		89085B7328C3694400692A66 /* TimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89085B7128C3694400692A66 /* TimeCell.xib */; };
+		8971053028C46D7D005A8A97 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8971052F28C46D7D005A8A97 /* HomeViewController.swift */; };
+		8971053228C47184005A8A97 /* regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8971053128C47183005A8A97 /* regions.swift */; };
+		8971053428C471E3005A8A97 /* regionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8971053328C471E3005A8A97 /* regionsModel.swift */; };
+		8971053728C475C3005A8A97 /* RegionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8971053528C475C3005A8A97 /* RegionCell.swift */; };
+		8971053828C475C3005A8A97 /* RegionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8971053628C475C3005A8A97 /* RegionCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89085ABA28C1E33E00692A66 /* PrayerTimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerTimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89085ABD28C1E33E00692A66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89085ABF28C1E33E00692A66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		89085AC128C1E33E00692A66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89085AC428C1E33E00692A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89085AC628C1E34000692A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89085AC928C1E34000692A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89085ACB28C1E34000692A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89085AD328C220A000692A66 /* ArbFONTS-GE-MB-MB-Bold_E.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-MB-Bold_E.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-MB-Bold_E.otf"; sourceTree = "<group>"; };
+		89085AD428C220A000692A66 /* ArbFONTS-GE-MB-MB-Medium-Italic_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-MB-Medium-Italic_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-MB-Medium-Italic_10.otf"; sourceTree = "<group>"; };
+		89085AD528C220A000692A66 /* ArbFONTS-GE_Box_Bold_4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_Box_Bold_4.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_Box_Bold_4.otf"; sourceTree = "<group>"; };
+		89085AD628C220A000692A66 /* ArbFONTS-GE-MB-Farasha-Medium_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Farasha-Medium_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Farasha-Medium_10.otf"; sourceTree = "<group>"; };
+		89085AD728C220A000692A66 /* ArbFONTS-GE-Heritage-Two-Medium_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Heritage-Two-Medium_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Heritage-Two-Medium_A.otf"; sourceTree = "<group>"; };
+		89085AD828C220A000692A66 /* ArbFONTS-GE-MB-Fares-Medium_23.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Fares-Medium_23.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Fares-Medium_23.otf"; sourceTree = "<group>"; };
+		89085AD928C220A000692A66 /* ArbFONTS-GE-Dinar-Two-Medium-Italic_20.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Dinar-Two-Medium-Italic_20.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Dinar-Two-Medium-Italic_20.otf"; sourceTree = "<group>"; };
+		89085ADA28C220A000692A66 /* ArbFONTS-GE-Dinar-Two-Medium_1E.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Dinar-Two-Medium_1E.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Dinar-Two-Medium_1E.otf"; sourceTree = "<group>"; };
+		89085ADB28C220A000692A66 /* ArbFONTS-GE-MB-Najm-Light_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Najm-Light_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Najm-Light_10.otf"; sourceTree = "<group>"; };
+		89085ADC28C220A000692A66 /* ArbFONTS-GE-MB-Najm-Medium-Italic_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Najm-Medium-Italic_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Najm-Medium-Italic_10.otf"; sourceTree = "<group>"; };
+		89085ADD28C220A000692A66 /* ArbFONTS-GE-Modern-Light_23.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Modern-Light_23.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Modern-Light_23.otf"; sourceTree = "<group>"; };
+		89085ADE28C220A000692A66 /* ArbFONTS-GE-Thameen-Book-Italic_12.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Thameen-Book-Italic_12.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Thameen-Book-Italic_12.otf"; sourceTree = "<group>"; };
+		89085ADF28C220A000692A66 /* ArbFONTS-GE-Heritage-One-UltraLight_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Heritage-One-UltraLight_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Heritage-One-UltraLight_A.otf"; sourceTree = "<group>"; };
+		89085AE028C220A000692A66 /* ArbFONTS-GE_SS_TWO_MEDIUM_5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_SS_TWO_MEDIUM_5.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_SS_TWO_MEDIUM_5.otf"; sourceTree = "<group>"; };
+		89085AE128C220A000692A66 /* ArbFONTS-GE-Minaret-Medium_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Minaret-Medium_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Minaret-Medium_10.otf"; sourceTree = "<group>"; };
+		89085AE228C220A000692A66 /* ArbFONTS-ge-dinarone-bold_8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-ge-dinarone-bold_8.ttf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-ge-dinarone-bold_8.ttf"; sourceTree = "<group>"; };
+		89085AE328C220A000692A66 /* ArbFONTS-GE-Jarida-Heavy-Italic_14.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Jarida-Heavy-Italic_14.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Jarida-Heavy-Italic_14.otf"; sourceTree = "<group>"; };
+		89085AE428C220A000692A66 /* ArbFONTS-GE-Modern-Medium_23.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Modern-Medium_23.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Modern-Medium_23.otf"; sourceTree = "<group>"; };
+		89085AE528C220A000692A66 /* ArbFONTS-GE_Smooth_Light_2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_Smooth_Light_2.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_Smooth_Light_2.otf"; sourceTree = "<group>"; };
+		89085AE628C220A000692A66 /* ArbFONTS-GE-MB-Farasha-Medium-Italic_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Farasha-Medium-Italic_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Farasha-Medium-Italic_10.otf"; sourceTree = "<group>"; };
+		89085AE728C220A000692A66 /* ArbFONTS-GE-Thameen-Light-Italic_12.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Thameen-Light-Italic_12.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Thameen-Light-Italic_12.otf"; sourceTree = "<group>"; };
+		89085AE828C220A000692A66 /* ArbFONTS-GE-SS-Text-Light-Italic_24.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-SS-Text-Light-Italic_24.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-SS-Text-Light-Italic_24.otf"; sourceTree = "<group>"; };
+		89085AE928C220A000692A66 /* ArbFONTS-GE_SS_Unique_Bold_5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_SS_Unique_Bold_5.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_SS_Unique_Bold_5.otf"; sourceTree = "<group>"; };
+		89085AEA28C220A000692A66 /* ArbFONTS-GE-MB-MB-condensedLight_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-MB-condensedLight_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-MB-condensedLight_10.otf"; sourceTree = "<group>"; };
+		89085AEB28C220A000692A66 /* ArbFONTS-GE-Hili-Light_15.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Hili-Light_15.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Hili-Light_15.otf"; sourceTree = "<group>"; };
+		89085AEC28C220A000692A66 /* ArbFONTS-GE-Heritage-One-Bold_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Heritage-One-Bold_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Heritage-One-Bold_A.otf"; sourceTree = "<group>"; };
+		89085AED28C220A000692A66 /* ArbFONTS-GE-Heritage-Two-Bold_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Heritage-Two-Bold_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Heritage-Two-Bold_A.otf"; sourceTree = "<group>"; };
+		89085AEE28C220A000692A66 /* ArbFONTS-GE-Snd-Book_1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Snd-Book_1.ttf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Snd-Book_1.ttf"; sourceTree = "<group>"; };
+		89085AEF28C220A000692A66 /* ArbFONTS-GE-SS-TV-Light_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-SS-TV-Light_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-SS-TV-Light_10.otf"; sourceTree = "<group>"; };
+		89085AF028C220A000692A66 /* ArbFONTS-GE-SS-Two-Light_28.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-SS-Two-Light_28.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-SS-Two-Light_28.otf"; sourceTree = "<group>"; };
+		89085AF128C220A000692A66 /* ArbFONTS-GE_WIDE_EXTRABOLD_3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_WIDE_EXTRABOLD_3.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_WIDE_EXTRABOLD_3.otf"; sourceTree = "<group>"; };
+		89085AF228C220A000692A66 /* ArbFONTS-GE-New-Bold_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-New-Bold_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-New-Bold_A.otf"; sourceTree = "<group>"; };
+		89085AF328C220A000692A66 /* ArbFONTS-GE-MB-Najm-Bold_23.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Najm-Bold_23.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Najm-Bold_23.otf"; sourceTree = "<group>"; };
+		89085AF428C220A000692A66 /* ArbFONTS-GE-SS-TV-Medium_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-SS-TV-Medium_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-SS-TV-Medium_10.otf"; sourceTree = "<group>"; };
+		89085AF528C220A000692A66 /* ArbFONTS-GE-Lady-Medium_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Lady-Medium_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Lady-Medium_A.otf"; sourceTree = "<group>"; };
+		89085AF628C220A000692A66 /* ArbFONTS-GE-Aridi-NaskhBold_8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Aridi-NaskhBold_8.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Aridi-NaskhBold_8.otf"; sourceTree = "<group>"; };
+		89085AF728C220A000692A66 /* ArbFONTS-GE-Narrow-Light_1F.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Narrow-Light_1F.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Narrow-Light_1F.otf"; sourceTree = "<group>"; };
+		89085AF828C220A000692A66 /* ArbFONTS-GE_SS_Two_Bold_4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_SS_Two_Bold_4.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_SS_Two_Bold_4.otf"; sourceTree = "<group>"; };
+		89085AF928C220A000692A66 /* ArbFONTS-ge-ss-tv-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-ge-ss-tv-bold.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-ge-ss-tv-bold.otf"; sourceTree = "<group>"; };
+		89085AFA28C220A000692A66 /* ArbFONTS-GE_CAP_MEDIUM_7.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_CAP_MEDIUM_7.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_CAP_MEDIUM_7.otf"; sourceTree = "<group>"; };
+		89085AFB28C220A000692A66 /* ArbFONTS-GE_Hili_Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_Hili_Book.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_Hili_Book.otf"; sourceTree = "<group>"; };
+		89085AFC28C220A000692A66 /* ArbFONTS-GE_SS_Unique_Light_1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_SS_Unique_Light_1.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_SS_Unique_Light_1.otf"; sourceTree = "<group>"; };
+		89085AFD28C220A000692A66 /* ArbFONTS-GE_TASMEEM_MEDIUM.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_TASMEEM_MEDIUM.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_TASMEEM_MEDIUM.otf"; sourceTree = "<group>"; };
+		89085AFE28C220A000692A66 /* ArbFONTS-GE-MB-Fares-Medium-Italic_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Fares-Medium-Italic_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Fares-Medium-Italic_10.otf"; sourceTree = "<group>"; };
+		89085AFF28C220A000692A66 /* ArbFONTS-GE-Heritage-Two-Light-Itali_8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Heritage-Two-Light-Itali_8.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Heritage-Two-Light-Itali_8.otf"; sourceTree = "<group>"; };
+		89085B0028C220A000692A66 /* ArbFONTS-GE-MB-Fares-Light_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Fares-Light_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Fares-Light_10.otf"; sourceTree = "<group>"; };
+		89085B0128C220A000692A66 /* ArbFONTS-GE-Curves-Medium_2B.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Curves-Medium_2B.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Curves-Medium_2B.otf"; sourceTree = "<group>"; };
+		89085B0228C220A100692A66 /* ArbFONTS-GE-Heritage-One-Light_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Heritage-One-Light_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Heritage-One-Light_A.otf"; sourceTree = "<group>"; };
+		89085B0328C220A100692A66 /* ArbFONTS-GE_Contrast_Bold_2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_Contrast_Bold_2.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_Contrast_Bold_2.otf"; sourceTree = "<group>"; };
+		89085B0428C220A100692A66 /* ArbFONTS-GE-Heritage-One-Medium_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Heritage-One-Medium_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Heritage-One-Medium_A.otf"; sourceTree = "<group>"; };
+		89085B0528C220A100692A66 /* ArbFONTS-GE-Elegant-Bold_1F.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Elegant-Bold_1F.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Elegant-Bold_1F.otf"; sourceTree = "<group>"; };
+		89085B0628C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Light_23.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Farasha-Light_23.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Farasha-Light_23.otf"; sourceTree = "<group>"; };
+		89085B0728C220A100692A66 /* ArbFONTS-GE-MB-MB-Medium_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-MB-Medium_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-MB-Medium_10.otf"; sourceTree = "<group>"; };
+		89085B0828C220A100692A66 /* ArbFONTS-GE-Thuluth-Light_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Thuluth-Light_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Thuluth-Light_10.otf"; sourceTree = "<group>"; };
+		89085B0928C220A100692A66 /* ArbFONTS-GE-Dinar-Two-Light-Italic_20.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Dinar-Two-Light-Italic_20.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Dinar-Two-Light-Italic_20.otf"; sourceTree = "<group>"; };
+		89085B0A28C220A100692A66 /* ArbFONTS-GE-Serif-Medium_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Serif-Medium_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Serif-Medium_A.otf"; sourceTree = "<group>"; };
+		89085B0B28C220A100692A66 /* ArbFONTS-GE-MB-Najm-Medium_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Najm-Medium_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Najm-Medium_10.otf"; sourceTree = "<group>"; };
+		89085B0C28C220A100692A66 /* ArbFONTS-GE-SS-Text-Medium_26.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-SS-Text-Medium_26.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-SS-Text-Medium_26.otf"; sourceTree = "<group>"; };
+		89085B0D28C220A100692A66 /* ArbFONTS-GE-Tail-Medium_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Tail-Medium_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Tail-Medium_A.otf"; sourceTree = "<group>"; };
+		89085B0E28C220A100692A66 /* ArbFONTS-GE-Flow-Regular-Italic_1A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Flow-Regular-Italic_1A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Flow-Regular-Italic_1A.otf"; sourceTree = "<group>"; };
+		89085B0F28C220A100692A66 /* ArbFONTS-GE-Thameen-DemiBold-Italic_12.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Thameen-DemiBold-Italic_12.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Thameen-DemiBold-Italic_12.otf"; sourceTree = "<group>"; };
+		89085B1028C220A100692A66 /* ArbFONTS-GE-AridiKoufiItalic_8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-AridiKoufiItalic_8.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-AridiKoufiItalic_8.otf"; sourceTree = "<group>"; };
+		89085B1128C220A100692A66 /* ArbFONTS-GE-Meem-Medium_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Meem-Medium_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Meem-Medium_A.otf"; sourceTree = "<group>"; };
+		89085B1228C220A100692A66 /* ArbFONTS-GE-Qantarat-ExtraBold_A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Qantarat-ExtraBold_A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Qantarat-ExtraBold_A.otf"; sourceTree = "<group>"; };
+		89085B1328C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Bold_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Farasha-Bold_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Farasha-Bold_10.otf"; sourceTree = "<group>"; };
+		89085B1428C220A100692A66 /* ArbFONTS-GESSTextUltraLight-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GESSTextUltraLight-UltraLight.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GESSTextUltraLight-UltraLight.otf"; sourceTree = "<group>"; };
+		89085B1528C220A100692A66 /* ArbFONTS-GE-SS-Text-Bold_26.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-SS-Text-Bold_26.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-SS-Text-Bold_26.otf"; sourceTree = "<group>"; };
+		89085B1628C220A100692A66 /* ArbFONTS-GE-Aridi-NaskhBlack_8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Aridi-NaskhBlack_8.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Aridi-NaskhBlack_8.otf"; sourceTree = "<group>"; };
+		89085B1728C220A100692A66 /* ArbFONTS-GE-Elegant-Italic_D.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Elegant-Italic_D.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Elegant-Italic_D.otf"; sourceTree = "<group>"; };
+		89085B1828C220A100692A66 /* ArbFONTS-GE_Dinar_One_Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_Dinar_One_Medium.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_Dinar_One_Medium.otf"; sourceTree = "<group>"; };
+		89085B1928C220A100692A66 /* ArbFONTS-GE-Elegant-Medium_24.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Elegant-Medium_24.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Elegant-Medium_24.otf"; sourceTree = "<group>"; };
+		89085B1A28C220A100692A66 /* ArbFONTS-GE-Flow-Bold-Italic_1A.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Flow-Bold-Italic_1A.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Flow-Bold-Italic_1A.otf"; sourceTree = "<group>"; };
+		89085B1B28C220A100692A66 /* ArbFONTS-GE_SS_TEXT_LIGHT.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE_SS_TEXT_LIGHT.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE_SS_TEXT_LIGHT.otf"; sourceTree = "<group>"; };
+		89085B1C28C220A100692A66 /* ArbFONTS-GE-Jarida-Heavy_23.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Jarida-Heavy_23.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Jarida-Heavy_23.otf"; sourceTree = "<group>"; };
+		89085B1D28C220A100692A66 /* ArbFONTS-GE-East-ExtraBold-Italic_14.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-East-ExtraBold-Italic_14.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-East-ExtraBold-Italic_14.otf"; sourceTree = "<group>"; };
+		89085B1E28C220A100692A66 /* ArbFONTS-GE-SS-Three-Light_19.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-SS-Three-Light_19.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-SS-Three-Light_19.otf"; sourceTree = "<group>"; };
+		89085B1F28C220A100692A66 /* ArbFONTS-GE-MB-Fares-Bold_10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-MB-Fares-Bold_10.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-MB-Fares-Bold_10.otf"; sourceTree = "<group>"; };
+		89085B2028C220A100692A66 /* ArbFONTS-GE-Modern-Bold_23.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ArbFONTS-GE-Modern-Bold_23.otf"; path = "../../../../../../Downloads/Arbfonts-Bundle-84d2c8892f/ArbFonts.com-(78)/ArbFONTS-GE-Modern-Bold_23.otf"; sourceTree = "<group>"; };
+		89085B7028C3694400692A66 /* TimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
+		89085B7128C3694400692A66 /* TimeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeCell.xib; sourceTree = "<group>"; };
+		8971052F28C46D7D005A8A97 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8971053128C47183005A8A97 /* regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regions.swift; sourceTree = "<group>"; };
+		8971053328C471E3005A8A97 /* regionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regionsModel.swift; sourceTree = "<group>"; };
+		8971053528C475C3005A8A97 /* RegionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionCell.swift; sourceTree = "<group>"; };
+		8971053628C475C3005A8A97 /* RegionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegionCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89085AB728C1E33E00692A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89085AB128C1E33E00692A66 = {
+			isa = PBXGroup;
+			children = (
+				89085ABC28C1E33E00692A66 /* PrayerTimeApp */,
+				89085ABB28C1E33E00692A66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89085ABB28C1E33E00692A66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89085ABA28C1E33E00692A66 /* PrayerTimeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89085ABC28C1E33E00692A66 /* PrayerTimeApp */ = {
+			isa = PBXGroup;
+			children = (
+				89085AD128C21F9E00692A66 /* Fonts */,
+				89085ABD28C1E33E00692A66 /* AppDelegate.swift */,
+				89085ABF28C1E33E00692A66 /* SceneDelegate.swift */,
+				89085AC128C1E33E00692A66 /* ViewController.swift */,
+				8971052F28C46D7D005A8A97 /* HomeViewController.swift */,
+				89085AC328C1E33E00692A66 /* Main.storyboard */,
+				89085AC628C1E34000692A66 /* Assets.xcassets */,
+				89085AC828C1E34000692A66 /* LaunchScreen.storyboard */,
+				89085ACB28C1E34000692A66 /* Info.plist */,
+				89085B7028C3694400692A66 /* TimeCell.swift */,
+				89085B7128C3694400692A66 /* TimeCell.xib */,
+				8971053128C47183005A8A97 /* regions.swift */,
+				8971053328C471E3005A8A97 /* regionsModel.swift */,
+				8971053528C475C3005A8A97 /* RegionCell.swift */,
+				8971053628C475C3005A8A97 /* RegionCell.xib */,
+			);
+			path = PrayerTimeApp;
+			sourceTree = "<group>";
+		};
+		89085AD128C21F9E00692A66 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				89085AD228C2208000692A66 /* GESS */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		89085AD228C2208000692A66 /* GESS */ = {
+			isa = PBXGroup;
+			children = (
+				89085AD528C220A000692A66 /* ArbFONTS-GE_Box_Bold_4.otf */,
+				89085AFA28C220A000692A66 /* ArbFONTS-GE_CAP_MEDIUM_7.otf */,
+				89085B0328C220A100692A66 /* ArbFONTS-GE_Contrast_Bold_2.otf */,
+				89085B1828C220A100692A66 /* ArbFONTS-GE_Dinar_One_Medium.otf */,
+				89085AFB28C220A000692A66 /* ArbFONTS-GE_Hili_Book.otf */,
+				89085AE528C220A000692A66 /* ArbFONTS-GE_Smooth_Light_2.otf */,
+				89085B1B28C220A100692A66 /* ArbFONTS-GE_SS_TEXT_LIGHT.otf */,
+				89085AF828C220A000692A66 /* ArbFONTS-GE_SS_Two_Bold_4.otf */,
+				89085AE028C220A000692A66 /* ArbFONTS-GE_SS_TWO_MEDIUM_5.otf */,
+				89085AE928C220A000692A66 /* ArbFONTS-GE_SS_Unique_Bold_5.otf */,
+				89085AFC28C220A000692A66 /* ArbFONTS-GE_SS_Unique_Light_1.otf */,
+				89085AFD28C220A000692A66 /* ArbFONTS-GE_TASMEEM_MEDIUM.otf */,
+				89085AF128C220A000692A66 /* ArbFONTS-GE_WIDE_EXTRABOLD_3.otf */,
+				89085B1628C220A100692A66 /* ArbFONTS-GE-Aridi-NaskhBlack_8.otf */,
+				89085AF628C220A000692A66 /* ArbFONTS-GE-Aridi-NaskhBold_8.otf */,
+				89085B1028C220A100692A66 /* ArbFONTS-GE-AridiKoufiItalic_8.otf */,
+				89085B0128C220A000692A66 /* ArbFONTS-GE-Curves-Medium_2B.otf */,
+				89085B0928C220A100692A66 /* ArbFONTS-GE-Dinar-Two-Light-Italic_20.otf */,
+				89085ADA28C220A000692A66 /* ArbFONTS-GE-Dinar-Two-Medium_1E.otf */,
+				89085AD928C220A000692A66 /* ArbFONTS-GE-Dinar-Two-Medium-Italic_20.otf */,
+				89085AE228C220A000692A66 /* ArbFONTS-ge-dinarone-bold_8.ttf */,
+				89085B1D28C220A100692A66 /* ArbFONTS-GE-East-ExtraBold-Italic_14.otf */,
+				89085B0528C220A100692A66 /* ArbFONTS-GE-Elegant-Bold_1F.otf */,
+				89085B1728C220A100692A66 /* ArbFONTS-GE-Elegant-Italic_D.otf */,
+				89085B1928C220A100692A66 /* ArbFONTS-GE-Elegant-Medium_24.otf */,
+				89085B1A28C220A100692A66 /* ArbFONTS-GE-Flow-Bold-Italic_1A.otf */,
+				89085B0E28C220A100692A66 /* ArbFONTS-GE-Flow-Regular-Italic_1A.otf */,
+				89085AEC28C220A000692A66 /* ArbFONTS-GE-Heritage-One-Bold_A.otf */,
+				89085B0228C220A100692A66 /* ArbFONTS-GE-Heritage-One-Light_A.otf */,
+				89085B0428C220A100692A66 /* ArbFONTS-GE-Heritage-One-Medium_A.otf */,
+				89085ADF28C220A000692A66 /* ArbFONTS-GE-Heritage-One-UltraLight_A.otf */,
+				89085AED28C220A000692A66 /* ArbFONTS-GE-Heritage-Two-Bold_A.otf */,
+				89085AFF28C220A000692A66 /* ArbFONTS-GE-Heritage-Two-Light-Itali_8.otf */,
+				89085AD728C220A000692A66 /* ArbFONTS-GE-Heritage-Two-Medium_A.otf */,
+				89085AEB28C220A000692A66 /* ArbFONTS-GE-Hili-Light_15.otf */,
+				89085B1C28C220A100692A66 /* ArbFONTS-GE-Jarida-Heavy_23.otf */,
+				89085AE328C220A000692A66 /* ArbFONTS-GE-Jarida-Heavy-Italic_14.otf */,
+				89085AF528C220A000692A66 /* ArbFONTS-GE-Lady-Medium_A.otf */,
+				89085B1328C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Bold_10.otf */,
+				89085B0628C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Light_23.otf */,
+				89085AD628C220A000692A66 /* ArbFONTS-GE-MB-Farasha-Medium_10.otf */,
+				89085AE628C220A000692A66 /* ArbFONTS-GE-MB-Farasha-Medium-Italic_10.otf */,
+				89085B1F28C220A100692A66 /* ArbFONTS-GE-MB-Fares-Bold_10.otf */,
+				89085B0028C220A000692A66 /* ArbFONTS-GE-MB-Fares-Light_10.otf */,
+				89085AD828C220A000692A66 /* ArbFONTS-GE-MB-Fares-Medium_23.otf */,
+				89085AFE28C220A000692A66 /* ArbFONTS-GE-MB-Fares-Medium-Italic_10.otf */,
+				89085AD328C220A000692A66 /* ArbFONTS-GE-MB-MB-Bold_E.otf */,
+				89085AEA28C220A000692A66 /* ArbFONTS-GE-MB-MB-condensedLight_10.otf */,
+				89085B0728C220A100692A66 /* ArbFONTS-GE-MB-MB-Medium_10.otf */,
+				89085AD428C220A000692A66 /* ArbFONTS-GE-MB-MB-Medium-Italic_10.otf */,
+				89085AF328C220A000692A66 /* ArbFONTS-GE-MB-Najm-Bold_23.otf */,
+				89085ADB28C220A000692A66 /* ArbFONTS-GE-MB-Najm-Light_10.otf */,
+				89085B0B28C220A100692A66 /* ArbFONTS-GE-MB-Najm-Medium_10.otf */,
+				89085ADC28C220A000692A66 /* ArbFONTS-GE-MB-Najm-Medium-Italic_10.otf */,
+				89085B1128C220A100692A66 /* ArbFONTS-GE-Meem-Medium_A.otf */,
+				89085AE128C220A000692A66 /* ArbFONTS-GE-Minaret-Medium_10.otf */,
+				89085B2028C220A100692A66 /* ArbFONTS-GE-Modern-Bold_23.otf */,
+				89085ADD28C220A000692A66 /* ArbFONTS-GE-Modern-Light_23.otf */,
+				89085AE428C220A000692A66 /* ArbFONTS-GE-Modern-Medium_23.otf */,
+				89085AF728C220A000692A66 /* ArbFONTS-GE-Narrow-Light_1F.otf */,
+				89085AF228C220A000692A66 /* ArbFONTS-GE-New-Bold_A.otf */,
+				89085B1228C220A100692A66 /* ArbFONTS-GE-Qantarat-ExtraBold_A.otf */,
+				89085B0A28C220A100692A66 /* ArbFONTS-GE-Serif-Medium_A.otf */,
+				89085AEE28C220A000692A66 /* ArbFONTS-GE-Snd-Book_1.ttf */,
+				89085B1528C220A100692A66 /* ArbFONTS-GE-SS-Text-Bold_26.otf */,
+				89085AE828C220A000692A66 /* ArbFONTS-GE-SS-Text-Light-Italic_24.otf */,
+				89085B0C28C220A100692A66 /* ArbFONTS-GE-SS-Text-Medium_26.otf */,
+				89085B1E28C220A100692A66 /* ArbFONTS-GE-SS-Three-Light_19.otf */,
+				89085AF928C220A000692A66 /* ArbFONTS-ge-ss-tv-bold.otf */,
+				89085AEF28C220A000692A66 /* ArbFONTS-GE-SS-TV-Light_10.otf */,
+				89085AF428C220A000692A66 /* ArbFONTS-GE-SS-TV-Medium_10.otf */,
+				89085AF028C220A000692A66 /* ArbFONTS-GE-SS-Two-Light_28.otf */,
+				89085B0D28C220A100692A66 /* ArbFONTS-GE-Tail-Medium_A.otf */,
+				89085ADE28C220A000692A66 /* ArbFONTS-GE-Thameen-Book-Italic_12.otf */,
+				89085B0F28C220A100692A66 /* ArbFONTS-GE-Thameen-DemiBold-Italic_12.otf */,
+				89085AE728C220A000692A66 /* ArbFONTS-GE-Thameen-Light-Italic_12.otf */,
+				89085B0828C220A100692A66 /* ArbFONTS-GE-Thuluth-Light_10.otf */,
+				89085B1428C220A100692A66 /* ArbFONTS-GESSTextUltraLight-UltraLight.otf */,
+			);
+			path = GESS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89085AB928C1E33E00692A66 /* PrayerTimeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89085ACE28C1E34000692A66 /* Build configuration list for PBXNativeTarget "PrayerTimeApp" */;
+			buildPhases = (
+				89085AB628C1E33E00692A66 /* Sources */,
+				89085AB728C1E33E00692A66 /* Frameworks */,
+				89085AB828C1E33E00692A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrayerTimeApp;
+			productName = PrayerTimeApp;
+			productReference = 89085ABA28C1E33E00692A66 /* PrayerTimeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89085AB228C1E33E00692A66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					89085AB928C1E33E00692A66 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 89085AB528C1E33E00692A66 /* Build configuration list for PBXProject "PrayerTimeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89085AB128C1E33E00692A66;
+			productRefGroup = 89085ABB28C1E33E00692A66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89085AB928C1E33E00692A66 /* PrayerTimeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89085AB828C1E33E00692A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89085B4828C220A100692A66 /* ArbFONTS-GE_CAP_MEDIUM_7.otf in Resources */,
+				89085ACA28C1E34000692A66 /* LaunchScreen.storyboard in Resources */,
+				89085B4D28C220A100692A66 /* ArbFONTS-GE-Heritage-Two-Light-Itali_8.otf in Resources */,
+				89085B5928C220A100692A66 /* ArbFONTS-GE-MB-Najm-Medium_10.otf in Resources */,
+				89085B5E28C220A100692A66 /* ArbFONTS-GE-AridiKoufiItalic_8.otf in Resources */,
+				89085B3228C220A100692A66 /* ArbFONTS-GE-Modern-Medium_23.otf in Resources */,
+				89085B4628C220A100692A66 /* ArbFONTS-GE_SS_Two_Bold_4.otf in Resources */,
+				89085B6828C220A100692A66 /* ArbFONTS-GE-Flow-Bold-Italic_1A.otf in Resources */,
+				89085B4B28C220A100692A66 /* ArbFONTS-GE_TASMEEM_MEDIUM.otf in Resources */,
+				89085B3828C220A100692A66 /* ArbFONTS-GE-MB-MB-condensedLight_10.otf in Resources */,
+				89085B6628C220A100692A66 /* ArbFONTS-GE_Dinar_One_Medium.otf in Resources */,
+				89085B5728C220A100692A66 /* ArbFONTS-GE-Dinar-Two-Light-Italic_20.otf in Resources */,
+				89085B4128C220A100692A66 /* ArbFONTS-GE-MB-Najm-Bold_23.otf in Resources */,
+				89085B3E28C220A100692A66 /* ArbFONTS-GE-SS-Two-Light_28.otf in Resources */,
+				89085B5828C220A100692A66 /* ArbFONTS-GE-Serif-Medium_A.otf in Resources */,
+				89085B2F28C220A100692A66 /* ArbFONTS-GE-Minaret-Medium_10.otf in Resources */,
+				89085B3A28C220A100692A66 /* ArbFONTS-GE-Heritage-One-Bold_A.otf in Resources */,
+				89085B6728C220A100692A66 /* ArbFONTS-GE-Elegant-Medium_24.otf in Resources */,
+				89085B3628C220A100692A66 /* ArbFONTS-GE-SS-Text-Light-Italic_24.otf in Resources */,
+				89085B3028C220A100692A66 /* ArbFONTS-ge-dinarone-bold_8.ttf in Resources */,
+				89085B6928C220A100692A66 /* ArbFONTS-GE_SS_TEXT_LIGHT.otf in Resources */,
+				89085B3B28C220A100692A66 /* ArbFONTS-GE-Heritage-Two-Bold_A.otf in Resources */,
+				89085B6328C220A100692A66 /* ArbFONTS-GE-SS-Text-Bold_26.otf in Resources */,
+				89085B3328C220A100692A66 /* ArbFONTS-GE_Smooth_Light_2.otf in Resources */,
+				89085B5A28C220A100692A66 /* ArbFONTS-GE-SS-Text-Medium_26.otf in Resources */,
+				89085B2128C220A100692A66 /* ArbFONTS-GE-MB-MB-Bold_E.otf in Resources */,
+				89085B2328C220A100692A66 /* ArbFONTS-GE_Box_Bold_4.otf in Resources */,
+				89085B3F28C220A100692A66 /* ArbFONTS-GE_WIDE_EXTRABOLD_3.otf in Resources */,
+				89085B5628C220A100692A66 /* ArbFONTS-GE-Thuluth-Light_10.otf in Resources */,
+				89085AC728C1E34000692A66 /* Assets.xcassets in Resources */,
+				89085B6B28C220A100692A66 /* ArbFONTS-GE-East-ExtraBold-Italic_14.otf in Resources */,
+				89085B3128C220A100692A66 /* ArbFONTS-GE-Jarida-Heavy-Italic_14.otf in Resources */,
+				89085B6228C220A100692A66 /* ArbFONTS-GESSTextUltraLight-UltraLight.otf in Resources */,
+				89085AC528C1E33E00692A66 /* Main.storyboard in Resources */,
+				89085B5D28C220A100692A66 /* ArbFONTS-GE-Thameen-DemiBold-Italic_12.otf in Resources */,
+				89085B5C28C220A100692A66 /* ArbFONTS-GE-Flow-Regular-Italic_1A.otf in Resources */,
+				89085B4928C220A100692A66 /* ArbFONTS-GE_Hili_Book.otf in Resources */,
+				89085B2728C220A100692A66 /* ArbFONTS-GE-Dinar-Two-Medium-Italic_20.otf in Resources */,
+				89085B3428C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Medium-Italic_10.otf in Resources */,
+				89085B4F28C220A100692A66 /* ArbFONTS-GE-Curves-Medium_2B.otf in Resources */,
+				89085B4328C220A100692A66 /* ArbFONTS-GE-Lady-Medium_A.otf in Resources */,
+				8971053828C475C3005A8A97 /* RegionCell.xib in Resources */,
+				89085B2928C220A100692A66 /* ArbFONTS-GE-MB-Najm-Light_10.otf in Resources */,
+				89085B4E28C220A100692A66 /* ArbFONTS-GE-MB-Fares-Light_10.otf in Resources */,
+				89085B5528C220A100692A66 /* ArbFONTS-GE-MB-MB-Medium_10.otf in Resources */,
+				89085B5F28C220A100692A66 /* ArbFONTS-GE-Meem-Medium_A.otf in Resources */,
+				89085B3728C220A100692A66 /* ArbFONTS-GE_SS_Unique_Bold_5.otf in Resources */,
+				89085B2B28C220A100692A66 /* ArbFONTS-GE-Modern-Light_23.otf in Resources */,
+				89085B4A28C220A100692A66 /* ArbFONTS-GE_SS_Unique_Light_1.otf in Resources */,
+				89085B7328C3694400692A66 /* TimeCell.xib in Resources */,
+				89085B6E28C220A100692A66 /* ArbFONTS-GE-Modern-Bold_23.otf in Resources */,
+				89085B2428C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Medium_10.otf in Resources */,
+				89085B5228C220A100692A66 /* ArbFONTS-GE-Heritage-One-Medium_A.otf in Resources */,
+				89085B6428C220A100692A66 /* ArbFONTS-GE-Aridi-NaskhBlack_8.otf in Resources */,
+				89085B5128C220A100692A66 /* ArbFONTS-GE_Contrast_Bold_2.otf in Resources */,
+				89085B4728C220A100692A66 /* ArbFONTS-ge-ss-tv-bold.otf in Resources */,
+				89085B2228C220A100692A66 /* ArbFONTS-GE-MB-MB-Medium-Italic_10.otf in Resources */,
+				89085B2D28C220A100692A66 /* ArbFONTS-GE-Heritage-One-UltraLight_A.otf in Resources */,
+				89085B5328C220A100692A66 /* ArbFONTS-GE-Elegant-Bold_1F.otf in Resources */,
+				89085B2E28C220A100692A66 /* ArbFONTS-GE_SS_TWO_MEDIUM_5.otf in Resources */,
+				89085B5B28C220A100692A66 /* ArbFONTS-GE-Tail-Medium_A.otf in Resources */,
+				89085B4C28C220A100692A66 /* ArbFONTS-GE-MB-Fares-Medium-Italic_10.otf in Resources */,
+				89085B6A28C220A100692A66 /* ArbFONTS-GE-Jarida-Heavy_23.otf in Resources */,
+				89085B3C28C220A100692A66 /* ArbFONTS-GE-Snd-Book_1.ttf in Resources */,
+				89085B2828C220A100692A66 /* ArbFONTS-GE-Dinar-Two-Medium_1E.otf in Resources */,
+				89085B6D28C220A100692A66 /* ArbFONTS-GE-MB-Fares-Bold_10.otf in Resources */,
+				89085B5428C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Light_23.otf in Resources */,
+				89085B2528C220A100692A66 /* ArbFONTS-GE-Heritage-Two-Medium_A.otf in Resources */,
+				89085B4428C220A100692A66 /* ArbFONTS-GE-Aridi-NaskhBold_8.otf in Resources */,
+				89085B2A28C220A100692A66 /* ArbFONTS-GE-MB-Najm-Medium-Italic_10.otf in Resources */,
+				89085B6528C220A100692A66 /* ArbFONTS-GE-Elegant-Italic_D.otf in Resources */,
+				89085B2628C220A100692A66 /* ArbFONTS-GE-MB-Fares-Medium_23.otf in Resources */,
+				89085B3D28C220A100692A66 /* ArbFONTS-GE-SS-TV-Light_10.otf in Resources */,
+				89085B3928C220A100692A66 /* ArbFONTS-GE-Hili-Light_15.otf in Resources */,
+				89085B4228C220A100692A66 /* ArbFONTS-GE-SS-TV-Medium_10.otf in Resources */,
+				89085B6C28C220A100692A66 /* ArbFONTS-GE-SS-Three-Light_19.otf in Resources */,
+				89085B6028C220A100692A66 /* ArbFONTS-GE-Qantarat-ExtraBold_A.otf in Resources */,
+				89085B5028C220A100692A66 /* ArbFONTS-GE-Heritage-One-Light_A.otf in Resources */,
+				89085B2C28C220A100692A66 /* ArbFONTS-GE-Thameen-Book-Italic_12.otf in Resources */,
+				89085B4028C220A100692A66 /* ArbFONTS-GE-New-Bold_A.otf in Resources */,
+				89085B3528C220A100692A66 /* ArbFONTS-GE-Thameen-Light-Italic_12.otf in Resources */,
+				89085B6128C220A100692A66 /* ArbFONTS-GE-MB-Farasha-Bold_10.otf in Resources */,
+				89085B4528C220A100692A66 /* ArbFONTS-GE-Narrow-Light_1F.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89085AB628C1E33E00692A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8971053028C46D7D005A8A97 /* HomeViewController.swift in Sources */,
+				89085B7228C3694400692A66 /* TimeCell.swift in Sources */,
+				89085AC228C1E33E00692A66 /* ViewController.swift in Sources */,
+				8971053228C47184005A8A97 /* regions.swift in Sources */,
+				89085ABE28C1E33E00692A66 /* AppDelegate.swift in Sources */,
+				8971053428C471E3005A8A97 /* regionsModel.swift in Sources */,
+				89085AC028C1E33E00692A66 /* SceneDelegate.swift in Sources */,
+				8971053728C475C3005A8A97 /* RegionCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89085AC328C1E33E00692A66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89085AC428C1E33E00692A66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89085AC828C1E34000692A66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89085AC928C1E34000692A66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89085ACC28C1E34000692A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89085ACD28C1E34000692A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89085ACF28C1E34000692A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6PCFAPRFA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrayerTimeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PrayerTimeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89085AD028C1E34000692A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6PCFAPRFA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrayerTimeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PrayerTimeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89085AB528C1E33E00692A66 /* Build configuration list for PBXProject "PrayerTimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89085ACC28C1E34000692A66 /* Debug */,
+				89085ACD28C1E34000692A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89085ACE28C1E34000692A66 /* Build configuration list for PBXNativeTarget "PrayerTimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89085ACF28C1E34000692A66 /* Debug */,
+				89085AD028C1E34000692A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89085AB228C1E33E00692A66 /* Project object */;
+}
