@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44AE7A1128C26B7C0010180C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE7A1028C26B7C0010180C /* AppDelegate.swift */; };
+		44AE7A1328C26B7C0010180C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE7A1228C26B7C0010180C /* SceneDelegate.swift */; };
+		44AE7A1528C26B7C0010180C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE7A1428C26B7C0010180C /* ViewController.swift */; };
+		44AE7A1828C26B7C0010180C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AE7A1628C26B7C0010180C /* Main.storyboard */; };
+		44AE7A1B28C26B7C0010180C /* PrayerTimeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44AE7A1928C26B7C0010180C /* PrayerTimeApp.xcdatamodeld */; };
+		44AE7A1D28C26B7F0010180C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AE7A1C28C26B7F0010180C /* Assets.xcassets */; };
+		44AE7A2028C26B7F0010180C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AE7A1E28C26B7F0010180C /* LaunchScreen.storyboard */; };
+		44AE7A2928C26D760010180C /* PrayerTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE7A2728C26D760010180C /* PrayerTimeTableViewCell.swift */; };
+		44AE7A2A28C26D760010180C /* PrayerTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44AE7A2828C26D760010180C /* PrayerTimeTableViewCell.xib */; };
+		44AE7A2C28C279320010180C /* PrayerTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE7A2B28C279320010180C /* PrayerTime.swift */; };
+		44AE7A2E28C2C0830010180C /* FirstSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE7A2D28C2C0830010180C /* FirstSceneViewController.swift */; };
+		44AE7A3028C2C0B60010180C /* ChooseCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE7A2F28C2C0B60010180C /* ChooseCityTableViewCell.swift */; };
+		44AE7A3228C2C0CF0010180C /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE7A3128C2C0CE0010180C /* City.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44AE7A0D28C26B7C0010180C /* PrayerTimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerTimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AE7A1028C26B7C0010180C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44AE7A1228C26B7C0010180C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44AE7A1428C26B7C0010180C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44AE7A1728C26B7C0010180C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44AE7A1A28C26B7C0010180C /* PrayerTimeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrayerTimeApp.xcdatamodel; sourceTree = "<group>"; };
+		44AE7A1C28C26B7F0010180C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44AE7A1F28C26B7F0010180C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44AE7A2128C26B7F0010180C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AE7A2728C26D760010180C /* PrayerTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		44AE7A2828C26D760010180C /* PrayerTimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrayerTimeTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		44AE7A2B28C279320010180C /* PrayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTime.swift; sourceTree = "<group>"; };
+		44AE7A2D28C2C0830010180C /* FirstSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSceneViewController.swift; sourceTree = SOURCE_ROOT; };
+		44AE7A2F28C2C0B60010180C /* ChooseCityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCityTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		44AE7A3128C2C0CE0010180C /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44AE7A0A28C26B7C0010180C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44AE7A0428C26B7C0010180C = {
+			isa = PBXGroup;
+			children = (
+				44AE7A3128C2C0CE0010180C /* City.swift */,
+				44AE7A2B28C279320010180C /* PrayerTime.swift */,
+				44AE7A0F28C26B7C0010180C /* PrayerTimeApp */,
+				44AE7A0E28C26B7C0010180C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44AE7A0E28C26B7C0010180C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44AE7A0D28C26B7C0010180C /* PrayerTimeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44AE7A0F28C26B7C0010180C /* PrayerTimeApp */ = {
+			isa = PBXGroup;
+			children = (
+				44AE7A2F28C2C0B60010180C /* ChooseCityTableViewCell.swift */,
+				44AE7A2D28C2C0830010180C /* FirstSceneViewController.swift */,
+				44AE7A2728C26D760010180C /* PrayerTimeTableViewCell.swift */,
+				44AE7A2828C26D760010180C /* PrayerTimeTableViewCell.xib */,
+				44AE7A1028C26B7C0010180C /* AppDelegate.swift */,
+				44AE7A1228C26B7C0010180C /* SceneDelegate.swift */,
+				44AE7A1428C26B7C0010180C /* ViewController.swift */,
+				44AE7A1628C26B7C0010180C /* Main.storyboard */,
+				44AE7A1C28C26B7F0010180C /* Assets.xcassets */,
+				44AE7A1E28C26B7F0010180C /* LaunchScreen.storyboard */,
+				44AE7A2128C26B7F0010180C /* Info.plist */,
+				44AE7A1928C26B7C0010180C /* PrayerTimeApp.xcdatamodeld */,
+			);
+			path = PrayerTimeApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44AE7A0C28C26B7C0010180C /* PrayerTimeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AE7A2428C26B7F0010180C /* Build configuration list for PBXNativeTarget "PrayerTimeApp" */;
+			buildPhases = (
+				44AE7A0928C26B7C0010180C /* Sources */,
+				44AE7A0A28C26B7C0010180C /* Frameworks */,
+				44AE7A0B28C26B7C0010180C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrayerTimeApp;
+			productName = PrayerTimeApp;
+			productReference = 44AE7A0D28C26B7C0010180C /* PrayerTimeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44AE7A0528C26B7C0010180C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					44AE7A0C28C26B7C0010180C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 44AE7A0828C26B7C0010180C /* Build configuration list for PBXProject "PrayerTimeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44AE7A0428C26B7C0010180C;
+			productRefGroup = 44AE7A0E28C26B7C0010180C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44AE7A0C28C26B7C0010180C /* PrayerTimeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44AE7A0B28C26B7C0010180C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AE7A2028C26B7F0010180C /* LaunchScreen.storyboard in Resources */,
+				44AE7A2A28C26D760010180C /* PrayerTimeTableViewCell.xib in Resources */,
+				44AE7A1D28C26B7F0010180C /* Assets.xcassets in Resources */,
+				44AE7A1828C26B7C0010180C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44AE7A0928C26B7C0010180C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AE7A2928C26D760010180C /* PrayerTimeTableViewCell.swift in Sources */,
+				44AE7A2E28C2C0830010180C /* FirstSceneViewController.swift in Sources */,
+				44AE7A3228C2C0CF0010180C /* City.swift in Sources */,
+				44AE7A2C28C279320010180C /* PrayerTime.swift in Sources */,
+				44AE7A1528C26B7C0010180C /* ViewController.swift in Sources */,
+				44AE7A1B28C26B7C0010180C /* PrayerTimeApp.xcdatamodeld in Sources */,
+				44AE7A3028C2C0B60010180C /* ChooseCityTableViewCell.swift in Sources */,
+				44AE7A1128C26B7C0010180C /* AppDelegate.swift in Sources */,
+				44AE7A1328C26B7C0010180C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44AE7A1628C26B7C0010180C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44AE7A1728C26B7C0010180C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44AE7A1E28C26B7F0010180C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44AE7A1F28C26B7F0010180C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44AE7A2228C26B7F0010180C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44AE7A2328C26B7F0010180C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44AE7A2528C26B7F0010180C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrayerTimeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PrayerTimeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44AE7A2628C26B7F0010180C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrayerTimeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PrayerTimeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44AE7A0828C26B7C0010180C /* Build configuration list for PBXProject "PrayerTimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AE7A2228C26B7F0010180C /* Debug */,
+				44AE7A2328C26B7F0010180C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AE7A2428C26B7F0010180C /* Build configuration list for PBXNativeTarget "PrayerTimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AE7A2528C26B7F0010180C /* Debug */,
+				44AE7A2628C26B7F0010180C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44AE7A1928C26B7C0010180C /* PrayerTimeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44AE7A1A28C26B7C0010180C /* PrayerTimeApp.xcdatamodel */,
+			);
+			currentVersion = 44AE7A1A28C26B7C0010180C /* PrayerTimeApp.xcdatamodel */;
+			path = PrayerTimeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44AE7A0528C26B7C0010180C /* Project object */;
+}
