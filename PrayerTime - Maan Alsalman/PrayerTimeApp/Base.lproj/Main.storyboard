@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D0e-k5-YIC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!-- مواقيت الصلاة-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PrayerTimeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Hnt-wo-yAc">
+                                <rect key="frame" x="10" y="128" width="394" height="734"/>
+                                <color key="backgroundColor" red="0.14757525969999999" green="0.2136631413" blue="0.29392360620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.14757525972908425" green="0.21366314131785932" blue="0.29392360616584723" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Hnt-wo-yAc" secondAttribute="bottom" id="lwU-3y-mIb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hnt-wo-yAc" secondAttribute="trailing" constant="10" id="on1-ET-g0p"/>
+                            <constraint firstItem="Hnt-wo-yAc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="tiR-dS-LId"/>
+                            <constraint firstItem="Hnt-wo-yAc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="vuF-oI-Rea"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title=" مواقيت الصلاة" id="4dX-hy-VY1"/>
+                    <connections>
+                        <outlet property="tableView" destination="Hnt-wo-yAc" id="Foi-xF-zFR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1454" y="90"/>
+        </scene>
+        <!--المدينة-->
+        <scene sceneID="MER-et-svJ">
+            <objects>
+                <viewController id="t22-bX-i57" customClass="FirstSceneViewController" customModule="PrayerTimeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m7f-LG-A9h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ljj-2c-b6M">
+                                <rect key="frame" x="20" y="158" width="374" height="704"/>
+                                <color key="backgroundColor" red="0.13835592829999999" green="0.21188480509999999" blue="0.29437766609999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cityCell" id="vnY-RW-hZ5" customClass="ChooseCityTableViewCell" customModule="PrayerTimeApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vnY-RW-hZ5" id="qmY-DT-5PY">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1I-mf-rvh">
+                                                    <rect key="frame" x="290" y="7" width="64" height="30"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.1200775097" green="0.1838923713" blue="0.25548697120000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="t1I-mf-rvh" secondAttribute="trailing" constant="20" id="83v-TZ-cQn"/>
+                                                <constraint firstItem="t1I-mf-rvh" firstAttribute="centerY" secondItem="qmY-DT-5PY" secondAttribute="centerY" id="m7z-WF-ZVz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cityLabel" destination="t1I-mf-rvh" id="t4M-2h-HLE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر المدينة:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4W-Uo-Obg">
+                                <rect key="frame" x="20" y="108" width="374" height="30"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SO3-C4-bUH"/>
+                        <color key="backgroundColor" red="0.13835592829999999" green="0.21188480509999999" blue="0.29437766609999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="SO3-C4-bUH" firstAttribute="trailing" secondItem="h4W-Uo-Obg" secondAttribute="trailing" constant="20" id="0KB-5m-MZa"/>
+                            <constraint firstItem="SO3-C4-bUH" firstAttribute="bottom" secondItem="ljj-2c-b6M" secondAttribute="bottom" id="77y-iJ-3Og"/>
+                            <constraint firstItem="h4W-Uo-Obg" firstAttribute="leading" secondItem="SO3-C4-bUH" secondAttribute="leading" constant="20" id="Anr-NU-RNp"/>
+                            <constraint firstItem="ljj-2c-b6M" firstAttribute="leading" secondItem="SO3-C4-bUH" secondAttribute="leading" constant="20" id="BsO-eI-2J1"/>
+                            <constraint firstItem="h4W-Uo-Obg" firstAttribute="top" secondItem="SO3-C4-bUH" secondAttribute="top" constant="20" id="gTi-Ot-GLV"/>
+                            <constraint firstItem="SO3-C4-bUH" firstAttribute="trailing" secondItem="ljj-2c-b6M" secondAttribute="trailing" constant="20" id="lP1-2u-F06"/>
+                            <constraint firstItem="ljj-2c-b6M" firstAttribute="top" secondItem="h4W-Uo-Obg" secondAttribute="bottom" constant="20" id="sNz-gN-pV8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="المدينة" id="mmm-hL-yP9"/>
+                    <connections>
+                        <outlet property="tableView" destination="ljj-2c-b6M" id="ozk-Ge-5fu"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="toCity" id="SlZ-eI-qjM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZ9-Cr-TeZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266.66666666666669" y="90.401785714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ozm-Gc-kpR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="D0e-k5-YIC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MhD-7A-QD4">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="t22-bX-i57" kind="relationship" relationship="rootViewController" id="lYn-Cg-cJI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lzn-u0-sTU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-643.47826086956525" y="90.401785714285708"/>
+        </scene>
+    </scenes>
+</document>
